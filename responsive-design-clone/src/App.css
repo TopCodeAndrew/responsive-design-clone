@@ -232,6 +232,20 @@ p {
   .larger-nav{
   display: flex;
   }
+
+  .meet{
+    font-size: 70px;
+    max-width: 900px;
+    line-height: 72px;
+  }
+}
+
+
+@media (min-width: 1200px){
+  .container{
+    width: 1120px;
+    max-width: 1120px;
+  }
 }
 
 @keyframes grow {
